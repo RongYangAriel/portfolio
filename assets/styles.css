@@ -1,0 +1,226 @@
+/* Coolors Exported Palette - coolors.co/618985-bdadea-c3dfe0-a37871-4e4b5c */
+
+/* HSL */
+/*$color1: hsla(174%, 17%, 46%, 1); grey green #618985  */
+/*$color2: hsla(256%, 59%, 80%, 1); light purple  #BDADEA   */
+/*$color3: hsla(182%, 32%, 82%, 1); light blue #C3DFE0  */
+/*$color4: hsla(8%, 21%, 54%, 1); brown red #A37871     */
+/*$color5: hsla(251%, 10%, 33%, 1); almost grey #4E4B5C    */
+/* almost black #0A0908                                     */
+/* grey blue #477890                                     */
+/* pastel blue #A6CFD5                                     */
+/* Prussian blue #023649            */
+/* smoky black #0A0908  */
+/* pale cerulean #9BC4CB */
+/* hooker's green #527668 */
+/* RGB */
+/*$color1: rgba(97, 137, 133, 1);*/
+/*$color2: rgba(189, 173, 234, 1);*/
+/*$color3: rgba(195, 223, 224, 1);*/
+/*$color4: rgba(163, 120, 113, 1);*/
+/*$color5: rgba(78, 75, 92, 1);*/
+
+
+/* Global styles
+-------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    color: #0A0908;
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    font-size:18px;
+    line-height: 1.5;
+}
+img{
+    max-width: 400px;
+    max-height: 600px;;
+}
+a{
+    color:#FFE66D;
+}
+h1, h2{
+    font-family: 'Caveat', cursive;
+}
+
+.content-wrap{
+    max-width: 900px;
+    width:90%;
+    margin: 0 auto;
+    padding:60px 0;
+}
+h1{
+    font-size: 120px;
+    line-height: 0.5;
+}
+h2{
+    margin:0;
+    font-size: 50px;
+}
+.item-details h3 ~ p{
+    margin: 0;
+}
+.divider > section{
+    border-bottom: 1px dashed #0A0908;
+    padding: 25px 0;
+}
+.divider > section:last-of-type{
+    border-bottom: none;
+}
+
+/* Profile
+-------------------------------------*/
+nav{
+    border-bottom: #4E4B5C solid 2px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #527668;
+}
+nav li{
+    float:right;
+    font-family: 'Caveat', cursive;
+    font-size: 26px;
+}
+nav li a{
+    display:block;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding:10px;
+    margin: 5px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+li a:hover {opacity: 1}
+
+
+/* Profile
+-------------------------------------*/
+header{
+    background: #618985;
+    color:#C3DFE0;
+    text-align: center;
+}
+
+
+
+/* skill
+-------------------------------------- */
+.skill{
+    background:#A6CFD5;
+}
+
+
+
+/* Project
+------------------------------------------*/
+.project{
+    background:#C3DFE0;
+}
+.project a{
+    color: burlywood;
+}
+.project .btn{
+    color:#F7FFF7;
+    background:#618985;
+    padding:8px;
+    text-decoration: none;
+    border-radius: 4px;
+    display:inline-block;
+    float:right
+}
+.project .btn:hover{
+    background: rgba(38,54,52,80);
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #4E4B5C;
+    padding: 25px 0;
+}
+.project-item img{
+    /*width: 300px;*/
+    /*height: 240px;*/
+
+    margin-bottom: 15px;
+}
+.project-item h3{
+    margin-top:0;
+}
+
+
+/* Work Experience
+------------------------------------------*/
+.work{
+    background: #9BC4CB;
+}
+
+
+/* Education
+------------------------------------------ */
+.education{
+    background-image: url("sharon-mccutcheon-unsplash.jpg");
+    background-size: cover;
+    background-position:left;
+}
+.education li{
+    width: 60%;
+}
+
+
+/* Contact me
+------------------------------ */
+footer {
+    background: #618985;
+    color: #C3DFE0;
+    text-align: center;
+    border-top: #4E4B5C solid 2px;
+}
+.contact-list {
+    list-style-type: none;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a{
+    padding: 5px;
+}
+.contact-list i{
+    padding:2px;
+}
+
+/* Responsive
+--------------------------------- */
+@media screen and (min-width: 650px){
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+    .job-item{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+}
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 80px;
+        line-height: 0.8;
+    }
+    h2{
+        line-height: 0.7;
+    }
+    .contact-list{
+        display: block;
+        padding: 5px;
+    }
+}
