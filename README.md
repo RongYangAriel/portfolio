@@ -1,3 +1,3 @@
-# onlineresume
-An online resume based on html and css
-[Rong's online resume](https://rongyangariel.github.io/onlineresume/)
+# portfolio
+
+[Rong's portfolio](https://rongyangariel.github.io/portfolio/)
